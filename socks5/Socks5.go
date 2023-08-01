@@ -31,7 +31,7 @@ func process(conn net.Conn) {
 		}
 		_, err = conn.Write([]byte{b})
 		if err != nil {
-			break
+			//break
 		}
 	}
 }

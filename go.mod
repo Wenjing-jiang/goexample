@@ -1,3 +1,3 @@
-module github.com/wangkechun/go-by-example
+module github.com/Wenjing-jiang/goexample
 
-go 1.18
+go 1.20
