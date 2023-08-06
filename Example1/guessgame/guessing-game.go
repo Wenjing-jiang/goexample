@@ -22,7 +22,7 @@ func main() {
 		input, err := reader.ReadString('\n')
 		if err != nil {
 			fmt.Println("An error occured while reading input. Please try again", err)
-			//continue
+			continue
 		}
 		input = strings.TrimSuffix(input, "\r\n")
 		guess, err := strconv.Atoi(input)
